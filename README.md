@@ -28,7 +28,7 @@
 ---
 
 ## 📌 Project Overview
-**Cinematic Matchmaker** is a production-grade recommendation system designed to solve the "what to watch next" problem. By leveraging Natural Language Processing (NLP) on over 4,800 cinematic records, the engine analyzes deep metadata—including genres, cast, crew, keywords, and plot overviews—to compute relational similarities between films.
+**Cinematic Matchmaker** is a production-grade recommendation system designed to solve the "what to watch next" problem. By leveraging Natural Language Processing (NLP) on over 5,000 cinematic records, the engine analyzes deep metadata—including genres, cast, crew, keywords, and plot overviews—to compute relational similarities between films.
 
 This project was built to demonstrate a complete **Machine Learning Lifecycle**: from raw data ingestion and exploratory data analysis (EDA) in a Jupyter environment, to model serialization, and finally, cloud deployment via a low-latency Streamlit web interface.
 
@@ -86,3 +86,11 @@ A full 4800x4800 float64 matrix consumes significant memory, causing standard cl
  ┣ 📜 tmdb_5000_credits.csv.zip               # Raw dataset 1
  ┣ 📜 tmdb_5000_movies.csv.zip                # Raw dataset 2
  ┗ 📜 README.md                               # Project documentation
+
+
+## 💻 How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/manojmulammagari/Movie-Recommender-System.git](https://github.com/manojmulammagari/Movie-Recommender-System.git)
+   cd Movie-Recommender-System
